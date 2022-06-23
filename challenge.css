@@ -1,0 +1,136 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+/* chellenge 1==============percentage vs fixed width */
+.parent{
+    background-color: gold;
+    padding: 50px;
+    width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.child{
+ /* background-color: lightcoral; */
+ /* height: 250px;    */
+ width: 50%;
+ 
+ /* ===========max-width===============================  */
+}
+.parent2{
+    background-color: rgb(255, 187, 0);
+    padding: 50px;
+    width: min(90%, 700px);
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 10px;
+    outline: 2px solid blue;
+    outline-offset: -10px;
+}
+.child2{
+    width: 50%;
+  
+}
+/* ===============max width==================== */
+ .intro{
+    background: rgb(1, 37, 60);
+    color: white;
+    padding: 50px 0;
+
+ }
+.container {
+    width: 90%;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  
+  .intro-content {
+    width: 50%;
+  }
+  /* ===========challenge 3 ===================*/
+  .hero3 h1{
+    font-size: 3rem;
+  }
+  .hero3 p{
+    margin-bottom: 3em;
+  }
+  .container3{
+    width: min(90%, 900px);
+    margin: 0 auto; 
+  }
+ .hero3{
+    padding: 100px 0;
+    background-color: hotpink;
+    color: whitesmoke;
+ }
+ 
+  .hero__text3{
+    width: min(60%, 600px);   
+  }
+
+  .hero3 .btn{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(74, 7, 136);
+    font-weight: 800;
+    background-color: gold;
+    padding: .75em 2em;
+    border-radius: 100px;
+  }
+.hero3
+ .btn:hover, 
+ .btn:focus{
+    opacity: .75;
+}
+/* ==========challenge 4 (flex box)================== */
+.row1{
+  display: flex;
+  flex-direction: row;
+}
+
+.col1+ .col1{
+  background-color: lightpink;
+  margin-left: 100px;
+}
+/* ============ */
+
+
+.container4{
+  width: min(80%, 1100px);
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  gap: 30px;
+
+}
+.col{
+  margin: 10px;
+  text-align: center; 
+}
+.col h2{
+  color: #87629A;
+}
+.container-flex{
+  width: 100%;
+  margin: 0 auto;
+  background: #136c72;
+  color: white;
+}
+.row2{
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  
+}
+.col2{
+  text-align: center;
+  padding-block: 30px;
+  flex: 1;
+}

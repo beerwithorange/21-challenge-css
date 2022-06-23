@@ -1,0 +1,51 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    }
+.body{
+    margin: 0;
+}
+/*  filter======================= */
+.container a{
+    color: brown;
+}
+.btn1:hover{
+    filter: brightness(200%);
+
+}
+.btn2:hover{
+    filter: hue-rotate(90deg);
+
+}
+.container h1{
+    color: brown;
+    font-size: 3em;
+}
+.bg-dark{
+    width: 100%;
+    background-color: rgb(2, 37, 26);
+    
+    margin: 0 auto;
+    padding: 20px 20px;
+    padding-top: 10px;
+    outline: gold;
+}
+.container{
+  
+    margin: 0 auto;
+    width: min(90%, 1200px);
+}
+.bg-dark p{
+    color: white;
+    opacity: .7;
+}
+.bg-lite{
+    width: 100%;
+    background-color: rgb(9, 180, 126);
+    color:rgba(225, 225, 225, 0.811);
+    margin: 0 auto;
+    padding: 20px 20px;
+    padding-top: 10px;
+    outline: gold;
+}
+
+
